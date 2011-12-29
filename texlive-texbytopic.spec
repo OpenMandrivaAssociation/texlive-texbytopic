@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 An invaluable book, originally published by Addison-Wesley (who
@@ -35,7 +33,6 @@ ever need to know.
 %doc %{_texmfdistdir}/doc/plain/texbytopic/glossary.tex
 %doc %{_texmfdistdir}/doc/plain/texbytopic/tables.tex
 %doc %{_texmfdistdir}/doc/plain/texbytopic/tex.bib
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,5 +43,3 @@ ever need to know.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
