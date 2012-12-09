@@ -43,3 +43,16 @@ ever need to know.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080824-2
++ Revision: 756597
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080824-1
++ Revision: 719676
+- texlive-texbytopic
+- texlive-texbytopic
+- texlive-texbytopic
+
