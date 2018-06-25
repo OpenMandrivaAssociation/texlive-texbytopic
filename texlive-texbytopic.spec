@@ -5,7 +5,7 @@
 # catalog-license fdl
 # catalog-version undef
 Name:		texlive-texbytopic
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
