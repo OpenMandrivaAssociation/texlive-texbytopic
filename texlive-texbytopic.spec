@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-texbytopic
 Version:	20180303
-Release:	2
+Release:	3
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/texbytopic
