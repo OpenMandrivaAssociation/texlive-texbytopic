@@ -5,8 +5,8 @@
 # catalog-license fdl
 # catalog-version undef
 Name:		texlive-texbytopic
-Version:	20180303
-Release:	3
+Version:	20190228
+Release:	1
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/texbytopic
