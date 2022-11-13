@@ -1,18 +1,12 @@
-# revision 15878
-# category Package
-# catalog-ctan /info/texbytopic
-# catalog-date 2008-08-24 10:50:19 +0200
-# catalog-license fdl
-# catalog-version undef
 Name:		texlive-texbytopic
-Version:	20190228
+Version:	15878
 Release:	1
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/texbytopic
 License:	FDL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -36,23 +30,10 @@ ever need to know.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080824-2
-+ Revision: 756597
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080824-1
-+ Revision: 719676
-- texlive-texbytopic
-- texlive-texbytopic
-- texlive-texbytopic
-
