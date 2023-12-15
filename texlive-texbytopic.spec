@@ -1,6 +1,6 @@
 Name:		texlive-texbytopic
-Version:	15878
-Release:	2
+Version:	68950
+Release:	1
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/texbytopic
