@@ -3,7 +3,7 @@ Version:	68950
 Release:	1
 Summary:	Freed version of the book TeX by Topic
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/texbytopic
+URL:		https://www.ctan.org/tex-archive/info/texbytopic
 License:	FDL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texbytopic.doc.r%{version}.tar.xz
